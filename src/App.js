@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import dada from "./assets/design/desktop-design-detail-dark.jpg"
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <img src={dada} alt="" />
     </div>
   );
 }
